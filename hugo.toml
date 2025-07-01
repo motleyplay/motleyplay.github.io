@@ -1,10 +1,10 @@
 baseURL = 'https://motleyplay.com/'
 languageCode = 'en-us'
-title = 'Larry James Henry'
+title = 'Motley Play'
 
 # set `baseurl` to your root domain
 # if you set it to "/" share icons won't work properly on production
-copyright = "Larry Henry"
+copyright = "Motly Play"
 # canonifyurls = true
 
 theme = "hugo-clarity"
