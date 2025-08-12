@@ -4,7 +4,7 @@ title = 'Motley Play'
 
 # set `baseurl` to your root domain
 # if you set it to "/" share icons won't work properly on production
-copyright = "Motly Play"
+copyright = "Motley Play"
 # canonifyurls = true
 
 theme = "hugo-clarity"
