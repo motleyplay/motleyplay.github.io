@@ -1,6 +1,6 @@
-baseurl = "https://motleyplay.com"
+baseurl = "https://username.github.io"
 DefaultContentLanguage = "en"
-title = "Motley Play"
+title = "Beautiful Hugo"
 # Using theme as git submodule
 theme = "beautifulhugo"
 # Or when using theme as hugo module
@@ -14,13 +14,13 @@ pygmentsCodefencesGuessSyntax = true
 
 [Services]
   [Services.Disqus]
-    # Shortname = "motleyplay"
+    # Shortname = "XXX"
   [Services.googleAnalytics]
     # id = "XXX"
 
 [Params]
-#  homeTitle = "Motley Play" # Set a different text for the header on the home page
-  subtitle = "Lets play a game"
+#  homeTitle = "Beautiful Hugo Theme" # Set a different text for the header on the home page
+  subtitle = "Build a beautiful and simple website in minutes"
   mainSections = ["post","posts"]
   logo = "img/avatar-icon.png" # Expecting square dimensions
   favicon = "img/favicon.ico"
@@ -53,13 +53,39 @@ pygmentsCodefencesGuessSyntax = true
 
 [Params.author]
   # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
-  name = "Larry Henry"
-  website = "motleyplay.com"
-  email = "larry@motleyplay.com"
-  #tiktok = "motleyplay
-  instagram = "motleyplay"
-  youtube = "user/motleyplay" # or channel/channelname
-
+  name = "Some Person"
+  website = "yourwebsite.com"
+  email = "youremail@domain.com"
+  facebook = "username"
+  github = "username"
+  gitlab = "username"
+  bitbucket = "username"
+  twitter = "username"
+  reddit = "username"
+  linkedin = "username"
+  xing = "username"
+  stackoverflow = "users/XXXXXXX/username"
+  snapchat = "username"
+  instagram = "username"
+  youtube = "user/username" # or channel/channelname
+  soundcloud = "username"
+  spotify = "username"
+  bandcamp = "username"
+  itchio = "username"
+  vk = "username"
+  paypal = "username"
+  telegram = "username"
+  500px = "username"
+  codepen = "username"
+  mastodon = "url"
+  kaggle = "username"
+  weibo = "username"
+  slack = "username"
+  medium = "username"
+  discord = "invite code (https://discord.gg/XXXXXXX)"
+  strava = "userid"
+  lastfm = "username"
+  bluesky = "username"
 
 [[menu.main]]
     name = "Blog"
