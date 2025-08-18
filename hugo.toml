@@ -1,6 +1,7 @@
 baseurl = "https://motleyplay.com"
 DefaultContentLanguage = "en"
 title = "Motley Play"
+
 # Using theme as git submodule
 theme = "beautifulhugo"
 # Or when using theme as hugo module
@@ -24,6 +25,7 @@ pygmentsCodefencesGuessSyntax = true
   mainSections = ["post","posts"]
   logo = "img/avatar-icon.png" # Expecting square dimensions
   favicon = "img/favicon.ico"
+  bannerlogo = "img/motleyplay-logobanner.png"
   dateFormat = "January 2, 2006"
   commit = false
   rss = true
