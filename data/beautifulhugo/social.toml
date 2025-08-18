@@ -70,7 +70,6 @@ url = "https://www.snapchat.com/add/%s"
 title = "Snapchat"
 icon = "fab fa-snapchat-ghost"
 
-
 [[social_icons]]
 id = "youtube"
 url = "https://www.youtube.com/%s"
@@ -88,7 +87,6 @@ id = "instagram"
 url = "https://www.instagram.com/%s"
 title = "Instagram"
 icon = "fab fa-instagram"
-
 
 [[social_icons]]
 id = "soundcloud"
