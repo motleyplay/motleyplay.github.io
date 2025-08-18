@@ -55,6 +55,7 @@ pygmentsCodefencesGuessSyntax = true
   # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
   name = "Motley Play"
   website = "https://motleyplay.com"
+  tiktok = "motleyplay"
   instagram = "motleyplay"
   youtube = "user/motleyplay" # or channel/channelname
 
