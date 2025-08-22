@@ -144,7 +144,7 @@ params:
     button:
       enable: true
       name: "Shop on"
-      url: "https://www.amazon.com/stores/author/B0CVPFLKG5"
+      url: "https://amazon.com/author/motleyplay"
       image: /images/amazon-button.png
     #  download: true
     #  newPage: false
@@ -297,7 +297,7 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      amazon: "https://www.amazon.com/stores/author/B0CVPFLKG5"
+      amazon: "https://amazon.com/author/motleyplay"
       youtube: https://www.youtube.com/@motleyplay
       tiktok: https://www.tiktok.com/@motleyplay
       instagram: https://www.instagram.com/motley_play
