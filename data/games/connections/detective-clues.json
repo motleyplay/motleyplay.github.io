@@ -1,0 +1,28 @@
+{
+  "title": "Detective Clues",
+  "difficulty": "Medium",
+  "categories": [
+    {
+      "name": "Classic Clue weapons",
+      "level": 1,
+      "items": ["ROPE", "DAGGER", "WRENCH", "CANDLESTICK"]
+    },
+    {
+      "name": "Fictional detectives",
+      "level": 2,
+      "items": ["POIROT", "MARPLE", "MORSE", "HOLMES"]
+    },
+    {
+      "name": "Clue suspects, minus their titles",
+      "level": 3,
+      "items": ["SCARLET", "MUSTARD", "PLUM", "PEACOCK"]
+    },
+    {
+      "name": "___PRINT",
+      "level": 4,
+      "items": ["FOOT", "THUMB", "BLUE", "NEWS"]
+    }
+  ],
+  "max_mistakes": 4,
+  "epilogue": "If BLUE went in with the colours on your first try, you're in good company. Mrs. Peacock is the blue suspect, which is exactly why it's there."
+}
