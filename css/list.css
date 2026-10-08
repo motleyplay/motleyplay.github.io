@@ -11,7 +11,7 @@
     text-decoration: none;
 }
 
-#list-page .card a h5 {
+#list-page .card a .card-title {
     color: var(--text-color) !important;
 }
 

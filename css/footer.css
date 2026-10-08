@@ -1,4 +1,4 @@
-footer a h5 {
+footer a .card-title {
     color: var(--text-color) !important;
 }
 
