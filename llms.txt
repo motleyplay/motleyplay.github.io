@@ -2,6 +2,8 @@
 
 > Books and puzzles for the curious mind. A collection of books, puzzles, and games that inspire creativity and curiosity.
 
+Last updated: 2026-10-06
+
 ## Kakuro for Beginners
 
 - [The Complete Beginner's Guide to Solving Kakuro](https://motleyplay.com/posts/beginner-kakuro-guide/): New to Kakuro? Learn to read the grid, spot the unique sums that start every solve, and cross-reference clues to place every digit without a single guess.
