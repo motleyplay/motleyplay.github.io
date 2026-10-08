@@ -2,7 +2,15 @@
 
 > Books and puzzles for the curious mind. A collection of books, puzzles, and games that inspire creativity and curiosity.
 
-Last updated: 2026-10-06
+Last updated: 2026-10-08
+
+## Advanced Kakuro Tactics
+
+- [The Ultimate Guide to Advanced Kakuro Tactics](https://motleyplay.com/posts/the-ultimate-guide/): Advanced Kakuro tactics in one place: magic blocks, intersections, the 45 rule, and parity. Solve expert grids without guessing, with a worked example.
+- [Essential Magic Blocks: The Kakuro Cheat Sheet](https://motleyplay.com/posts/essential-magic-blocks/): Memorize the 16 Kakuro magic blocks for 2 to 5 cells, then use them to find every entry point on an expert grid. Includes a cheat sheet and a worked example.
+- [Mastering the 45 Rule in Kakuro](https://motleyplay.com/posts/mastering-45-rule/): Kakuro has no 3x3 boxes, so the Sudoku 45 rule needs a twist. Learn the long-entry trick and how innies and outies crack open blocks with no magic blocks.
+- [Intersection Logic: Cross-Referencing Kakuro Clues](https://motleyplay.com/posts/intersection-logic/): Learn to read Kakuro clues in pairs: how high and low sums crossing each other force single digits, plus a cheat sheet of the crossings that solve corners.
+- [Eliminating Guesswork in Kakuro: Parity and Logic](https://motleyplay.com/posts/eliminating-guesswork/): Stop guessing on expert Kakuro puzzles. Use parity rules, ghost duplicates, and short forcing chains to settle stuck corners with logic, not a coin flip.
 
 ## Kakuro for Beginners
 
