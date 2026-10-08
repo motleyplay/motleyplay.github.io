@@ -1,0 +1,26 @@
+# Motley Play
+
+> Books and puzzles for the curious mind. A collection of books, puzzles, and games that inspire creativity and curiosity.
+
+## Kakuro for Beginners
+
+- [The Complete Beginner's Guide to Solving Kakuro](https://motleyplay.com/posts/beginner-kakuro-guide/): New to Kakuro? Learn to read the grid, spot the unique sums that start every solve, and cross-reference clues to place every digit without a single guess.
+- [Understanding Kakuro Rules and Grid Mechanics](https://motleyplay.com/posts/kakuro-rules-grid-mechanics/): Learn the Kakuro rules that trip up new solvers: which way each clue points, where an entry starts and stops, and why one row can legally hold two 5s.
+- [Kakuro Unique Sums: The Magic of 3, 4, 16, and 17](https://motleyplay.com/posts/magic-unique-sums/): Every Kakuro solve starts with unique sums. Learn why 3, 4, 16, and 17 in two cells have only one answer, then use them to crack a full practice grid.
+- [How to Cross-Reference Intersecting Kakuro Clues](https://motleyplay.com/posts/cross-referencing-clues/): Know the digits but not their order? Learn how to cross-reference Kakuro clues where across and down entries meet to find forced digits, step by step.
+- [Common Kakuro Mistakes Beginners Make and How to Avoid Them](https://motleyplay.com/posts/common-beginner-mistakes/): Guessing, hidden duplicates, stale pencil marks, and addition slips ruin most beginner Kakuro grids. Here's how to catch each habit and stop it early.
+- [Transitioning from Sudoku to Kakuro: What Changes?](https://motleyplay.com/posts/sudoku-to-kakuro/): Good at Sudoku but stuck on Kakuro? See which habits carry over, why the no-repeat rule works differently, and how your favorite Sudoku tricks map to Kakuro.
+
+## Playable Puzzles
+
+Free murder-mystery puzzles you can play in your browser: a logic grid, a Victorian cryptogram, a detective-themed connections board, and a mansion escape.
+
+- [Death at Ravenscroft Manor: A Murder Mystery Logic Grid](https://motleyplay.com/games/mansion-murder-logic/): Four guests, four rooms, one dead lord. Solve a free murder-mystery logic grid in your browser using nine clues and pure deduction. No guessing.
+- [The Detective's Maxim: A Victorian Cryptogram](https://motleyplay.com/games/victorian-cryptogram/): Crack a substitution cipher hiding a famous line from Sherlock Holmes. Type one letter and every match updates. Free to play in your browser.
+- [Detective Clues: A Murder Mystery Connections Puzzle](https://motleyplay.com/games/detective-clues-connections/): Sixteen words, four hidden groups, four mistakes allowed. A detective-themed connections puzzle with a red herring or two. Free to play in your browser.
+- [The Blackwood Estate: A Victorian Murder Escape](https://motleyplay.com/games/blackwood-estate-escape/): Locked in a Yorkshire manor with a body in the study. Crack two locks, test three alibis and name the killer in a free text-based escape game.
+
+## Optional
+
+- [Sitemap](https://motleyplay.com/sitemap.xml)
+- [RSS feed](https://motleyplay.com/index.xml)
