@@ -2,7 +2,7 @@
 
 > Books and puzzles for the curious mind. A collection of books, puzzles, and games that inspire creativity and curiosity.
 
-Last updated: 2026-10-08
+Last updated: 2026-10-13
 
 ## Advanced Kakuro Tactics
 
@@ -20,6 +20,15 @@ Last updated: 2026-10-08
 - [How to Cross-Reference Intersecting Kakuro Clues](https://motleyplay.com/posts/kakuro-cross-referencing-clues/): Know the digits but not their order? Learn how to cross-reference Kakuro clues where across and down entries meet to find forced digits, step by step.
 - [Common Kakuro Mistakes Beginners Make and How to Avoid Them](https://motleyplay.com/posts/common-kakuro-mistakes/): Guessing, hidden duplicates, stale pencil marks, and addition slips ruin most beginner Kakuro grids. Here's how to catch each habit and stop it early.
 - [Transitioning from Sudoku to Kakuro: What Changes?](https://motleyplay.com/posts/sudoku-to-kakuro/): Good at Sudoku but stuck on Kakuro? See which habits carry over, why the no-repeat rule works differently, and how your favorite Sudoku tricks map to Kakuro.
+
+## Kakuro Puzzle Design
+
+- [How to Make a Kakuro Puzzle From Scratch](https://motleyplay.com/posts/how-to-make-kakuro/): Build a Kakuro from blank paper: lay out the grid, fill the digits, find and fix a second solution, then set the difficulty, all on one worked 7x7 grid.
+- [Designing a Kakuro Grid: Symmetry, Runs and Black Cells](https://motleyplay.com/posts/kakuro-grid-design/): Kakuro grid layout rules: runs of 2 to 9 cells, every white cell crossed both ways, 180-degree symmetry, and how black cells shape a solve. A worked 7x7.
+- [How to Make Sure Your Kakuro Has Exactly One Solution](https://motleyplay.com/posts/kakuro-unique-solution/): Why your Kakuro has two solutions, why a magic block won't fix a digit swap, and how one changed digit and two new clues make the series 7x7 grid unique.
+- [How to Set Kakuro Difficulty: Technique, Not Grid Size](https://motleyplay.com/posts/kakuro-difficulty-levels/): Kakuro difficulty comes from the hardest technique a grid needs, not its size. Grade a 7x7 as Medium, then refill the same layout so it needs a region count.
+- [Build a Kakuro Solver and Generator in Python](https://motleyplay.com/posts/kakuro-solver-generator/): Write a Kakuro solver in Python with combination tables and backtracking, then turn it into a generator that checks for a second solution and grades difficulty.
+- [Designing Kakuro Grids That Hide an Answer](https://motleyplay.com/posts/kakuro-hidden-answers/): Build a Kakuro grid around a hidden code: pick the answer cells, dodge the digit traps, lock them in, fill around them, and make sure the answer arrives late.
 
 ## Playable Puzzles
 
