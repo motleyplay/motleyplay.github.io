@@ -1,34 +1,36 @@
 # Motley Play
 
-> Books and puzzles for the curious mind. A collection of books, puzzles, and games that inspire creativity and curiosity.
+> Original logic puzzle books, interactive mystery games, and constraint-verified Kakuro solving & construction guides by Motley Play.
 
-Last updated: 2026-10-13
+Last updated: 2026-11-10
+
+About the author: [About Motley Play & Our Puzzle Engineering Methodology](https://motleyplay.com/about/)
 
 ## Advanced Kakuro Tactics
 
-- [The Ultimate Guide to Advanced Kakuro Tactics](https://motleyplay.com/posts/advanced-kakuro-tactics-guide/): Advanced Kakuro tactics in one place: magic blocks, intersections, the 45 rule, and parity. Solve expert grids without guessing, with a worked example.
-- [Essential Magic Blocks: The Kakuro Cheat Sheet](https://motleyplay.com/posts/kakuro-magic-blocks/): Memorize the 16 Kakuro magic blocks for 2 to 5 cells, then use them to find every entry point on an expert grid. Includes a cheat sheet and a worked example.
-- [Mastering the 45 Rule in Kakuro](https://motleyplay.com/posts/kakuro-45-rule/): Kakuro has no 3x3 boxes, so the Sudoku 45 rule needs a twist. Learn the long-entry trick and how innies and outies crack open blocks with no magic blocks.
-- [Intersection Logic: Cross-Referencing Kakuro Clues](https://motleyplay.com/posts/kakuro-intersection-logic/): Learn to read Kakuro clues in pairs: how high and low sums crossing each other force single digits, plus a cheat sheet of the crossings that solve corners.
-- [Eliminating Guesswork in Kakuro: Parity and Logic](https://motleyplay.com/posts/kakuro-eliminating-guesswork/): Stop guessing on expert Kakuro puzzles. Use parity rules, ghost duplicates, and short forcing chains to settle stuck corners with logic, not a coin flip.
+- [The Ultimate Guide to Advanced Kakuro Tactics](https://motleyplay.com/posts/advanced-kakuro-tactics-guide/): Advanced Kakuro tactics in one place: 2-to-5 cell magic blocks, ceiling/floor intersections, the 45 rule (innies/outies), and parity forcing chains.
+- [Kakuro Magic Blocks Cheat Sheet: All 16 Unique Sums (2 to 5 Cells)](https://motleyplay.com/posts/kakuro-magic-blocks/): Complete reference table of all 16 Kakuro magic blocks across 2, 3, 4, and 5 cells. Learn how 4-cell and 5-cell unique sums cap crossing runs on hard grids.
+- [Mastering the 45 Rule in Kakuro](https://motleyplay.com/posts/kakuro-45-rule/): Kakuro has no 3x3 boxes, so the Sudoku 45 rule needs a twist. Learn the 45-minus-clue long-entry trick and how innies and outies crack open isolated blocks.
+- [Kakuro Intersection Logic: Ceilings, Floors, and High-Low Crossings](https://motleyplay.com/posts/kakuro-intersection-logic/): Master advanced Kakuro intersection logic: calculate ceiling and floor bounds for long entries, eliminate 'too big' and 'too small' candidates, and force corners.
+- [Eliminating Guesswork in Kakuro: Parity and Logic](https://motleyplay.com/posts/kakuro-eliminating-guesswork/): Stop guessing on expert Kakuro puzzles. Use odd/even parity rules, ghost duplicates, and short forcing chains to resolve 2x2 pockets with pure deduction.
 
 ## Kakuro for Beginners
 
-- [The Complete Beginner's Guide to Solving Kakuro](https://motleyplay.com/posts/beginner-kakuro-guide/): New to Kakuro? Learn to read the grid, spot the unique sums that start every solve, and cross-reference clues to place every digit without a single guess.
-- [Understanding Kakuro Rules and Grid Mechanics](https://motleyplay.com/posts/kakuro-rules-grid-mechanics/): Learn the Kakuro rules that trip up new solvers: which way each clue points, where an entry starts and stops, and why one row can legally hold two 5s.
-- [Kakuro Unique Sums: The Magic of 3, 4, 16, and 17](https://motleyplay.com/posts/kakuro-unique-sums/): Every Kakuro solve starts with unique sums. Learn why 3, 4, 16, and 17 in two cells have only one answer, then use them to crack a full practice grid.
-- [How to Cross-Reference Intersecting Kakuro Clues](https://motleyplay.com/posts/kakuro-cross-referencing-clues/): Know the digits but not their order? Learn how to cross-reference Kakuro clues where across and down entries meet to find forced digits, step by step.
+- [The Complete Beginner's Guide to Solving Kakuro](https://motleyplay.com/posts/beginner-kakuro-guide/): New to Kakuro? Learn to read diagonal sum clues, spot the 16 unique magic blocks that start every solve, and cross-reference intersections with zero guesswork.
+- [Understanding Kakuro Rules and Grid Mechanics](https://motleyplay.com/posts/kakuro-rules-grid-mechanics/): Learn the Kakuro rules that trip up new solvers: which way diagonal clues point, where an entry starts and stops, and why one row can legally hold two 5s.
+- [Kakuro Unique Sums for Beginners: 3, 4, 16, and 17 in Two Cells](https://motleyplay.com/posts/kakuro-unique-sums/): Master the four 2-cell Kakuro unique sums (3, 4, 16, and 17) that start every beginner solve, learn the 10-minus-X mirror formula, and crack a 6x6 practice grid.
+- [How to Cross-Reference Kakuro Clues: Solving Your First 2x2 Corners](https://motleyplay.com/posts/kakuro-cross-referencing-clues/): Learn beginner Kakuro cross-referencing: intersect 2-cell across and down clues to lock corner digits, calculate forced remainders, and solve without guessing.
 - [Common Kakuro Mistakes Beginners Make and How to Avoid Them](https://motleyplay.com/posts/common-kakuro-mistakes/): Guessing, hidden duplicates, stale pencil marks, and addition slips ruin most beginner Kakuro grids. Here's how to catch each habit and stop it early.
-- [Transitioning from Sudoku to Kakuro: What Changes?](https://motleyplay.com/posts/sudoku-to-kakuro/): Good at Sudoku but stuck on Kakuro? See which habits carry over, why the no-repeat rule works differently, and how your favorite Sudoku tricks map to Kakuro.
+- [Transitioning from Sudoku to Kakuro: What Changes?](https://motleyplay.com/posts/sudoku-to-kakuro/): Good at Sudoku but stuck on Kakuro? See which habits carry over, why the no-repeat rule resets at every black cell, and how Sudoku pairs map to unique sums.
 
 ## Kakuro Puzzle Design
 
-- [How to Make a Kakuro Puzzle From Scratch](https://motleyplay.com/posts/how-to-make-kakuro/): Build a Kakuro from blank paper: lay out the grid, fill the digits, find and fix a second solution, then set the difficulty, all on one worked 7x7 grid.
-- [Designing a Kakuro Grid: Symmetry, Runs and Black Cells](https://motleyplay.com/posts/kakuro-grid-design/): Kakuro grid layout rules: runs of 2 to 9 cells, every white cell crossed both ways, 180-degree symmetry, and how black cells shape a solve. A worked 7x7.
-- [How to Make Sure Your Kakuro Has Exactly One Solution](https://motleyplay.com/posts/kakuro-unique-solution/): Why your Kakuro has two solutions, why a magic block won't fix a digit swap, and how one changed digit and two new clues make the series 7x7 grid unique.
-- [How to Set Kakuro Difficulty: Technique, Not Grid Size](https://motleyplay.com/posts/kakuro-difficulty-levels/): Kakuro difficulty comes from the hardest technique a grid needs, not its size. Grade a 7x7 as Medium, then refill the same layout so it needs a region count.
-- [Build a Kakuro Solver and Generator in Python](https://motleyplay.com/posts/kakuro-solver-generator/): Write a Kakuro solver in Python with combination tables and backtracking, then turn it into a generator that checks for a second solution and grades difficulty.
-- [Designing Kakuro Grids That Hide an Answer](https://motleyplay.com/posts/kakuro-hidden-answers/): Build a Kakuro grid around a hidden code: pick the answer cells, dodge the digit traps, lock them in, fill around them, and make sure the answer arrives late.
+- [How to Make a Kakuro Puzzle From Scratch](https://motleyplay.com/posts/how-to-make-kakuro/): Complete hub guide to constructing a valid Kakuro puzzle from scratch: 180-degree grid symmetry, fixing 2x2 deadly swaps, difficulty grading, and Python verification.
+- [Designing a Kakuro Grid: 180° Symmetry, Run Lengths, and Black Cells](https://motleyplay.com/posts/kakuro-grid-design/): Learn Kakuro grid topology rules: 2-to-9 cell run bounds, orthogonal connectivity, 180-degree interior symmetry (N-r, N-c), and printable 7x7–15x15 PDF templates.
+- [How to Make Sure Your Kakuro Has Exactly One Solution (Fixing 2x2 Swaps)](https://motleyplay.com/posts/kakuro-unique-solution/): Why fill-first Kakuro grids suffer from 2x2 deadly digit swaps, why magic blocks can't stop a pure swap, and how to prove and repair solution uniqueness.
+- [How to Set Kakuro Difficulty: Technique, Not Grid Size](https://motleyplay.com/posts/kakuro-difficulty-levels/): Kakuro difficulty comes from the hardest deduction technique a grid forces, not its size. Grade a 7x7 as Medium, then refill the same layout so it requires a region count.
+- [Build a Kakuro Solver and Generator in Python](https://motleyplay.com/posts/kakuro-solver-generator/): Write a fast Python Kakuro solver using 9-bit candidate masks and run-level filtering, then build a generator that repairs 2x2 swaps and grades human difficulty.
+- [Designing Kakuro Grids That Hide an Answer](https://motleyplay.com/posts/kakuro-hidden-answers/): Design escape room Kakuro puzzles that reveal a secret lock code or page number: pre-lock target cells, avoid the zero and duplicate traps, and pace the reveal.
 
 ## Playable Puzzles
 
