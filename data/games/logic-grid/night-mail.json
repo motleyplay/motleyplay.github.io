@@ -1,0 +1,151 @@
+{
+  "title": "Death on the Night Mail",
+  "difficulty": "Easy",
+  "story": "The overnight mail train left London Euston at a quarter to nine, bound for Edinburgh. Somewhere past Crewe, Mr. Silas Greaves, moneylender, drank the brandy his steward poured him and never woke up. The guard found him at Carlisle with the empty glass still in his hand.\n\nFour other passengers had compartments in the same carriage, numbered 1 to 4 from the engine back. Each carried one piece of hand luggage aboard, and the guard, a methodical man, wrote down everything he noticed about them. He just didn't write it down in any useful order.\n\nWork out which compartment each passenger had and what they carried. The brandy was laced with laudanum, and whoever carried the laudanum bottle is your killer.",
+  "categories": [
+    {
+      "name": "Passenger",
+      "items": [
+        "Mrs. Fairweather",
+        "Captain Royle",
+        "Miss Ingram",
+        "Mr. Quill"
+      ]
+    },
+    {
+      "name": "Compartment",
+      "items": [
+        "Compartment 1",
+        "Compartment 2",
+        "Compartment 3",
+        "Compartment 4"
+      ]
+    },
+    {
+      "name": "Luggage",
+      "items": [
+        "Hatbox",
+        "Carpet Bag",
+        "Laudanum Bottle",
+        "Birdcage"
+      ]
+    }
+  ],
+  "clues": [
+    "The passenger in Compartment 3 was either Mr. Quill or Miss Ingram.",
+    "The passenger carrying the birdcage was one compartment nearer the engine than the passenger carrying the carpet bag.",
+    "Of the passenger carrying the carpet bag and the passenger carrying the hatbox, one was in Compartment 4 and the other was in Compartment 1.",
+    "The passenger in Compartment 2 was not Captain Royle.",
+    "Mr. Quill was two compartments nearer the engine than Miss Ingram."
+  ],
+  "solution": [
+    {
+      "Passenger": "Mrs. Fairweather",
+      "Compartment": "Compartment 2",
+      "Luggage": "Laudanum Bottle"
+    },
+    {
+      "Passenger": "Captain Royle",
+      "Compartment": "Compartment 4",
+      "Luggage": "Carpet Bag"
+    },
+    {
+      "Passenger": "Miss Ingram",
+      "Compartment": "Compartment 3",
+      "Luggage": "Birdcage"
+    },
+    {
+      "Passenger": "Mr. Quill",
+      "Compartment": "Compartment 1",
+      "Luggage": "Hatbox"
+    }
+  ],
+  "epilogue": "It was Mrs. Fairweather, travelling in Compartment 2. The laudanum bottle was found under the seat, wrapped in a railway timetable, with three doses gone. Mr. Greaves had lent Mrs. Fairweather two hundred pounds at forty per cent, and the train was the only place they were sure to meet.",
+  "clue_logic": [
+    {
+      "type": "either",
+      "terms": [
+        [
+          "Compartment",
+          "Compartment 3"
+        ],
+        [
+          "Passenger",
+          "Mr. Quill"
+        ],
+        [
+          "Passenger",
+          "Miss Ingram"
+        ]
+      ]
+    },
+    {
+      "type": "gap",
+      "terms": [
+        [
+          "Luggage",
+          "Birdcage"
+        ],
+        [
+          "Luggage",
+          "Carpet Bag"
+        ]
+      ],
+      "order_category": "Compartment",
+      "gap": 1
+    },
+    {
+      "type": "pair",
+      "terms": [
+        [
+          "Luggage",
+          "Carpet Bag"
+        ],
+        [
+          "Luggage",
+          "Hatbox"
+        ],
+        [
+          "Compartment",
+          "Compartment 4"
+        ],
+        [
+          "Compartment",
+          "Compartment 1"
+        ]
+      ]
+    },
+    {
+      "type": "diff",
+      "terms": [
+        [
+          "Compartment",
+          "Compartment 2"
+        ],
+        [
+          "Passenger",
+          "Captain Royle"
+        ]
+      ]
+    },
+    {
+      "type": "gap",
+      "terms": [
+        [
+          "Passenger",
+          "Mr. Quill"
+        ],
+        [
+          "Passenger",
+          "Miss Ingram"
+        ]
+      ],
+      "order_category": "Compartment",
+      "gap": 2
+    }
+  ],
+  "generator": {
+    "tool": "logic_grid_generator.py",
+    "seed": 1
+  }
+}

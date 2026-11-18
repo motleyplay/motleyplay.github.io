@@ -1,0 +1,10 @@
+{
+  "title": "The Inspector's Question",
+  "difficulty": "Easy",
+  "author": "Arthur Conan Doyle",
+  "source": "Silver Blaze (1892)",
+  "ciphertext": "“YM ERBAB CKI ZTYKE ET QRYGR ITL QTLHN QYMR ET NACQ SI CEEBKEYTK?” “ET ERB GLAYTLM YKGYNBKE TO ERB NTF YK ERB KYFRE-EYSB.” “ERB NTF NYN KTERYKF YK ERB KYFRE-EYSB.” “ERCE QCM ERB GLAYTLM YKGYNBKE.”",
+  "plaintext": "“Is there any point to which you would wish to draw my attention?” “To the curious incident of the dog in the night-time.” “The dog did nothing in the night-time.” “That was the curious incident.”",
+  "hint_letter": "T",
+  "epilogue": "Inspector Gregory asks the question; Holmes gives the answer. A champion racehorse has vanished from a Dartmoor stable, and the guard dog never barked. A dog that stays quiet at midnight knows the person leading the horse away."
+}

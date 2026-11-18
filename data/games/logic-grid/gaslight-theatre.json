@@ -1,0 +1,213 @@
+{
+  "title": "Curtain Call at the Gaslight Theatre",
+  "difficulty": "Medium",
+  "story": "Opening night of Macbeth at the Gaslight Theatre, and the house is full. In the banquet scene, Sir Ambrose Tull raises his goblet, drinks, and delivers his next line flat on his back. The audience applauds for a full minute before anyone realises he isn't acting.\n\nFour members of the company had charge of a stage prop that night. Each made their first entrance in a different act, and each dressed on a different floor of the theatre's narrow backstage tower, from the ground floor up to the third. The stage manager's prompt book recorded all of it, and then the stage manager spilled cold tea across the page.\n\nWork out which prop each actor looked after, the act in which they first entered, and the floor they dressed on. Somebody filled that goblet with more than wine, and the actor in charge of the goblet is your killer.",
+  "categories": [
+    {
+      "name": "Actor",
+      "items": [
+        "Mr. Bramwell",
+        "Miss Lark",
+        "Mrs. Penrose",
+        "Signor Valli"
+      ]
+    },
+    {
+      "name": "Prop",
+      "items": [
+        "Goblet",
+        "Dagger",
+        "Crown",
+        "Lantern"
+      ]
+    },
+    {
+      "name": "Entrance",
+      "items": [
+        "Act I",
+        "Act II",
+        "Act III",
+        "Act IV"
+      ]
+    },
+    {
+      "name": "Floor",
+      "items": [
+        "Ground Floor",
+        "First Floor",
+        "Second Floor",
+        "Third Floor"
+      ]
+    }
+  ],
+  "clues": [
+    "The actor who dressed on the first floor was not Mr. Bramwell.",
+    "Miss Lark first entered exactly one act before Mr. Bramwell.",
+    "The actor who dressed on the third floor was in charge of either the lantern or the goblet.",
+    "The actor who dressed on the first floor first entered in Act IV.",
+    "The actor in charge of the lantern was not Mr. Bramwell.",
+    "Signor Valli first entered earlier in the play than the actor who dressed on the second floor.",
+    "Of the actor who dressed on the ground floor and the actor who dressed on the first floor, one was Mr. Bramwell and the other was Mrs. Penrose.",
+    "Of the actor in charge of the crown and the actor in charge of the goblet, one was Mrs. Penrose and the other was Signor Valli."
+  ],
+  "solution": [
+    {
+      "Actor": "Mr. Bramwell",
+      "Prop": "Dagger",
+      "Entrance": "Act III",
+      "Floor": "Ground Floor"
+    },
+    {
+      "Actor": "Miss Lark",
+      "Prop": "Lantern",
+      "Entrance": "Act II",
+      "Floor": "Second Floor"
+    },
+    {
+      "Actor": "Mrs. Penrose",
+      "Prop": "Crown",
+      "Entrance": "Act IV",
+      "Floor": "First Floor"
+    },
+    {
+      "Actor": "Signor Valli",
+      "Prop": "Goblet",
+      "Entrance": "Act I",
+      "Floor": "Third Floor"
+    }
+  ],
+  "epilogue": "It was Signor Valli. Sir Ambrose had promised Signor Valli the lead in the spring season and then, that very afternoon, given it to a younger rival. The empty phial turned up in a costume trunk on the third floor, wrapped in a page torn from Act III.",
+  "clue_logic": [
+    {
+      "type": "diff",
+      "terms": [
+        [
+          "Floor",
+          "First Floor"
+        ],
+        [
+          "Actor",
+          "Mr. Bramwell"
+        ]
+      ]
+    },
+    {
+      "type": "gap",
+      "terms": [
+        [
+          "Actor",
+          "Miss Lark"
+        ],
+        [
+          "Actor",
+          "Mr. Bramwell"
+        ]
+      ],
+      "order_category": "Entrance",
+      "gap": 1
+    },
+    {
+      "type": "either",
+      "terms": [
+        [
+          "Floor",
+          "Third Floor"
+        ],
+        [
+          "Prop",
+          "Lantern"
+        ],
+        [
+          "Prop",
+          "Goblet"
+        ]
+      ]
+    },
+    {
+      "type": "same",
+      "terms": [
+        [
+          "Floor",
+          "First Floor"
+        ],
+        [
+          "Entrance",
+          "Act IV"
+        ]
+      ]
+    },
+    {
+      "type": "diff",
+      "terms": [
+        [
+          "Prop",
+          "Lantern"
+        ],
+        [
+          "Actor",
+          "Mr. Bramwell"
+        ]
+      ]
+    },
+    {
+      "type": "less",
+      "terms": [
+        [
+          "Actor",
+          "Signor Valli"
+        ],
+        [
+          "Floor",
+          "Second Floor"
+        ]
+      ],
+      "order_category": "Entrance"
+    },
+    {
+      "type": "pair",
+      "terms": [
+        [
+          "Floor",
+          "Ground Floor"
+        ],
+        [
+          "Floor",
+          "First Floor"
+        ],
+        [
+          "Actor",
+          "Mr. Bramwell"
+        ],
+        [
+          "Actor",
+          "Mrs. Penrose"
+        ]
+      ]
+    },
+    {
+      "type": "pair",
+      "terms": [
+        [
+          "Prop",
+          "Crown"
+        ],
+        [
+          "Prop",
+          "Goblet"
+        ],
+        [
+          "Actor",
+          "Mrs. Penrose"
+        ],
+        [
+          "Actor",
+          "Signor Valli"
+        ]
+      ]
+    }
+  ],
+  "generator": {
+    "tool": "logic_grid_generator.py",
+    "seed": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "title": "The Prefect's Problem",
+  "difficulty": "Medium",
+  "author": "Edgar Allan Poe",
+  "source": "The Purloined Letter (1844)",
+  "ciphertext": "OFJZNOY PI PY IZF QFJT YPKOGPRPIT EV IZF IZPXM UZPRZ OHIY TEH NI VNHGI.",
+  "plaintext": "Perhaps it is the very simplicity of the thing which puts you at fault.",
+  "hint_letter": "T",
+  "epilogue": "C. Auguste Dupin says it to the Prefect of the Paris police, who has spent months searching a minister's rooms for a stolen letter. The letter was in a card-rack on the mantelpiece the whole time, in plain view."
+}

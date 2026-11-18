@@ -1,0 +1,271 @@
+{
+  "title": "The Last Sitting at Hollowmere",
+  "difficulty": "Hard",
+  "story": "Madame Sorel, the most fashionable medium in Bath, held her sittings at Hollowmere House by appointment only. Five sitters arrived on the evening of the 3rd of March, a quarter of an hour apart, each carrying a keepsake of someone they had lost. Madame Sorel took tea alone in the parlour before the sitting began. When the lamps were relit at ten o'clock, she was slumped over the table, and the doctor later found arsenic in her teacup.\n\nThe maid let every sitter in and took every coat. She remembers who brought what, whom each of them was mourning and when each one arrived. She mixes the details up, but she never says anything that isn't true.\n\nWork out each sitter's keepsake, whom they were mourning and when they arrived. The constable found an arsenic paper folded inside a hollowed-out prayer book, and whoever brought the prayer book is your killer.",
+  "categories": [
+    {
+      "name": "Sitter",
+      "items": [
+        "Mr. Ashcombe",
+        "Mrs. Delane",
+        "Major Frith",
+        "Miss Harrow",
+        "Reverend Oakes"
+      ]
+    },
+    {
+      "name": "Keepsake",
+      "items": [
+        "Pocket Watch",
+        "Lock of Hair",
+        "Wedding Ring",
+        "Prayer Book",
+        "Photograph"
+      ]
+    },
+    {
+      "name": "Mourning",
+      "items": [
+        "Son",
+        "Brother",
+        "Daughter",
+        "Mother",
+        "Father"
+      ]
+    },
+    {
+      "name": "Arrival",
+      "items": [
+        "7:30 PM",
+        "7:45 PM",
+        "8:00 PM",
+        "8:15 PM",
+        "8:30 PM"
+      ]
+    }
+  ],
+  "clues": [
+    "Miss Harrow brought either the pocket watch or the wedding ring.",
+    "The sitter who arrived at 7:45 PM was not Reverend Oakes.",
+    "The sitter mourning a mother was not Mr. Ashcombe.",
+    "The sitter mourning a son arrived earlier than Mr. Ashcombe.",
+    "Of the sitter who arrived at 8:30 PM and the sitter who arrived at 8:15 PM, one was mourning a father and the other was mourning a son.",
+    "Of Mrs. Delane and Reverend Oakes, one brought the photograph and the other brought the wedding ring.",
+    "The sitter who brought the pocket watch was mourning either a daughter or a brother.",
+    "Of the sitter mourning a daughter and the sitter mourning a son, one was Reverend Oakes and the other was Mrs. Delane.",
+    "The sitter mourning a mother arrived exactly half an hour before the sitter mourning a brother.",
+    "Of the sitter who brought the prayer book and the sitter who brought the photograph, one was Reverend Oakes and the other was Mr. Ashcombe."
+  ],
+  "solution": [
+    {
+      "Sitter": "Mr. Ashcombe",
+      "Keepsake": "Prayer Book",
+      "Mourning": "Father",
+      "Arrival": "8:30 PM"
+    },
+    {
+      "Sitter": "Mrs. Delane",
+      "Keepsake": "Wedding Ring",
+      "Mourning": "Daughter",
+      "Arrival": "7:45 PM"
+    },
+    {
+      "Sitter": "Major Frith",
+      "Keepsake": "Lock of Hair",
+      "Mourning": "Mother",
+      "Arrival": "7:30 PM"
+    },
+    {
+      "Sitter": "Miss Harrow",
+      "Keepsake": "Pocket Watch",
+      "Mourning": "Brother",
+      "Arrival": "8:00 PM"
+    },
+    {
+      "Sitter": "Reverend Oakes",
+      "Keepsake": "Photograph",
+      "Mourning": "Son",
+      "Arrival": "8:15 PM"
+    }
+  ],
+  "epilogue": "It was Mr. Ashcombe, who arrived at 8:30 PM. Madame Sorel had promised Mr. Ashcombe a word from a late father and, three sittings later, admitted over the teapot that she had invented every one. Mr. Ashcombe went to the parlour to have it out with her and came back with the teacup rinsed.",
+  "clue_logic": [
+    {
+      "type": "either",
+      "terms": [
+        [
+          "Sitter",
+          "Miss Harrow"
+        ],
+        [
+          "Keepsake",
+          "Pocket Watch"
+        ],
+        [
+          "Keepsake",
+          "Wedding Ring"
+        ]
+      ]
+    },
+    {
+      "type": "diff",
+      "terms": [
+        [
+          "Arrival",
+          "7:45 PM"
+        ],
+        [
+          "Sitter",
+          "Reverend Oakes"
+        ]
+      ]
+    },
+    {
+      "type": "diff",
+      "terms": [
+        [
+          "Mourning",
+          "Mother"
+        ],
+        [
+          "Sitter",
+          "Mr. Ashcombe"
+        ]
+      ]
+    },
+    {
+      "type": "less",
+      "terms": [
+        [
+          "Mourning",
+          "Son"
+        ],
+        [
+          "Sitter",
+          "Mr. Ashcombe"
+        ]
+      ],
+      "order_category": "Arrival"
+    },
+    {
+      "type": "pair",
+      "terms": [
+        [
+          "Arrival",
+          "8:30 PM"
+        ],
+        [
+          "Arrival",
+          "8:15 PM"
+        ],
+        [
+          "Mourning",
+          "Father"
+        ],
+        [
+          "Mourning",
+          "Son"
+        ]
+      ]
+    },
+    {
+      "type": "pair",
+      "terms": [
+        [
+          "Sitter",
+          "Mrs. Delane"
+        ],
+        [
+          "Sitter",
+          "Reverend Oakes"
+        ],
+        [
+          "Keepsake",
+          "Photograph"
+        ],
+        [
+          "Keepsake",
+          "Wedding Ring"
+        ]
+      ]
+    },
+    {
+      "type": "either",
+      "terms": [
+        [
+          "Keepsake",
+          "Pocket Watch"
+        ],
+        [
+          "Mourning",
+          "Daughter"
+        ],
+        [
+          "Mourning",
+          "Brother"
+        ]
+      ]
+    },
+    {
+      "type": "pair",
+      "terms": [
+        [
+          "Mourning",
+          "Daughter"
+        ],
+        [
+          "Mourning",
+          "Son"
+        ],
+        [
+          "Sitter",
+          "Reverend Oakes"
+        ],
+        [
+          "Sitter",
+          "Mrs. Delane"
+        ]
+      ]
+    },
+    {
+      "type": "gap",
+      "terms": [
+        [
+          "Mourning",
+          "Mother"
+        ],
+        [
+          "Mourning",
+          "Brother"
+        ]
+      ],
+      "order_category": "Arrival",
+      "gap": 2
+    },
+    {
+      "type": "pair",
+      "terms": [
+        [
+          "Keepsake",
+          "Prayer Book"
+        ],
+        [
+          "Keepsake",
+          "Photograph"
+        ],
+        [
+          "Sitter",
+          "Reverend Oakes"
+        ],
+        [
+          "Sitter",
+          "Mr. Ashcombe"
+        ]
+      ]
+    }
+  ],
+  "generator": {
+    "tool": "logic_grid_generator.py",
+    "seed": 29
+  }
+}

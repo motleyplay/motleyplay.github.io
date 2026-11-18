@@ -1,0 +1,10 @@
+{
+  "title": "A Day in the Armchair",
+  "difficulty": "Medium",
+  "author": "Arthur Conan Doyle",
+  "source": "The Hound of the Baskervilles (1902)",
+  "ciphertext": "LDV GXTCZ PI BQCC XB XKYPXQI LDPENI GDPAD EXKXZF KF MEF ADMEAV VYVT XKIVTYVI.",
+  "plaintext": "The world is full of obvious things which nobody by any chance ever observes.",
+  "hint_letter": "O",
+  "epilogue": "Holmes has just worked out, from Watson's spotless hat and boots, that Watson spent the whole rainy day at his club. Holmes, for his part, spent it in Devonshire, \"in spirit\", with a map of the moor and two large pots of coffee."
+}

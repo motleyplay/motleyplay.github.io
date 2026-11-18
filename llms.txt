@@ -2,7 +2,7 @@
 
 > Original logic puzzle books, interactive mystery games, and constraint-verified Kakuro solving & construction guides by Motley Play.
 
-Last updated: 2026-11-10
+Last updated: 2026-11-17
 
 About the author: [About Motley Play & Our Puzzle Engineering Methodology](https://motleyplay.com/about/)
 
@@ -34,10 +34,18 @@ About the author: [About Motley Play & Our Puzzle Engineering Methodology](https
 
 ## Playable Puzzles
 
-Free murder-mystery puzzles you can play in your browser: a logic grid, a Victorian cryptogram, a detective-themed connections board, and a mansion escape.
+Free murder-mystery puzzles to play in your browser: logic-grid cases from easy to hard, detective-fiction cryptograms, a connections board and a mansion escape.
 
+- [Death on the Night Mail: An Easy Murder Mystery Logic Grid](https://motleyplay.com/games/night-mail-logic/): A moneylender dead on the overnight train to Edinburgh. Four passengers, five clues, one laudanum bottle. A free beginner logic grid for your browser.
 - [Death at Ravenscroft Manor: A Murder Mystery Logic Grid](https://motleyplay.com/games/mansion-murder-logic/): Four guests, four rooms, one dead lord. Solve a free murder-mystery logic grid in your browser using nine clues and pure deduction. No guessing.
+- [Curtain Call at the Gaslight Theatre: A Murder Mystery Logic Grid](https://motleyplay.com/games/gaslight-theatre-logic/): The leading man drinks from his goblet on opening night and never gets up. Four actors, four props, eight clues. A free murder-mystery logic grid.
+- [The Last Sitting at Hollowmere: A Hard Murder Mystery Logic Grid](https://motleyplay.com/games/hollowmere-seance-logic/): A medium poisoned before her own séance. Five sitters, five keepsakes, ten clues and a hollow prayer book. A hard 5×5 murder-mystery logic grid.
+- [The Locked Room: An Easy Sherlock Holmes Cryptogram](https://motleyplay.com/games/sign-of-four-cryptogram/): A dead man in a room locked from the inside, and Holmes's most famous rule hidden in a substitution cipher. A free beginner cryptogram for your browser.
+- [The Inspector's Question: An Easy Sherlock Holmes Cryptogram](https://motleyplay.com/games/silver-blaze-cryptogram/): A racehorse vanishes from a Dartmoor stable and Holmes notices what didn't happen. Decode a four-line exchange in a free beginner cryptogram.
 - [The Detective's Maxim: A Victorian Cryptogram](https://motleyplay.com/games/victorian-cryptogram/): Crack a substitution cipher hiding a famous line from Sherlock Holmes. Type one letter and every match updates. Free to play in your browser.
+- [A Day in the Armchair: A Sherlock Holmes Cryptogram](https://motleyplay.com/games/hound-of-the-baskervilles-cryptogram/): Holmes spent the day in Devonshire without leaving his chair. Decode his one-line complaint about the rest of us in a free substitution cipher.
+- [The Prefect's Problem: An Edgar Allan Poe Cryptogram](https://motleyplay.com/games/purloined-letter-cryptogram/): The Paris police have searched for three months and found nothing. Decode C. Auguste Dupin's reply to the Prefect in a free substitution cipher puzzle.
+- [Poirot's Rule: A Hard Agatha Christie Cryptogram](https://motleyplay.com/games/mysterious-affair-at-styles-cryptogram/): Hastings calls a clue unimportant and Poirot groans. Decode the reply from Christie's first novel. No free letters in this hard substitution cipher.
 - [Detective Clues: A Murder Mystery Connections Puzzle](https://motleyplay.com/games/detective-clues-connections/): Sixteen words, four hidden groups, four mistakes allowed. A detective-themed connections puzzle with a red herring or two. Free to play in your browser.
 - [The Blackwood Estate: A Victorian Murder Escape](https://motleyplay.com/games/blackwood-estate-escape/): Locked in a Yorkshire manor with a body in the study. Crack two locks, test three alibis and name the killer in a free text-based escape game.
 

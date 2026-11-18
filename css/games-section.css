@@ -122,6 +122,102 @@
   margin: 1.5rem auto 0;
 }
 
+/* Hub groups: one section per puzzle type. */
+.games-group + .games-group {
+  margin-top: 3rem;
+}
+
+.games-group-header {
+  margin-bottom: 1.25rem;
+}
+
+.games-group-header h2 {
+  font-family: Alata, sans-serif;
+  font-size: 1.6rem;
+  margin-bottom: 0.25rem;
+}
+
+.games-group-header p {
+  margin: 0;
+  color: var(--text-secondary-color);
+}
+
+.games-group-count {
+  display: inline-block;
+  vertical-align: middle;
+  min-width: 1.6rem;
+  padding: 0.05rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-align: center;
+  background: var(--secondary-color);
+  color: var(--text-secondary-color);
+}
+
+/* Previous / next links between puzzles of the same type. */
+.games-next {
+  max-width: 920px;
+  margin: 2.5rem auto 0;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(127, 127, 127, 0.25);
+}
+
+.games-next-position {
+  margin-bottom: 0.75rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-secondary-color);
+}
+
+.games-next-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.games-next-link {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.3rem;
+  padding: 1rem 1.25rem;
+  border-radius: 12px;
+  background: var(--secondary-color);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+  color: var(--text-color) !important;
+  text-decoration: none !important;
+}
+
+.games-next-link:hover {
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+.games-next-forward {
+  grid-column: -2;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.games-next-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-secondary-color);
+}
+
+.games-next-title {
+  font-family: Alata, sans-serif;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 575px) {
+  .games-next-forward {
+    grid-column: auto;
+  }
+}
+
 .games-single-tags {
   max-width: 920px;
   margin: 2rem auto 3rem;
