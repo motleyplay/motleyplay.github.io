@@ -32,6 +32,15 @@ About the author: [About Motley Play & Our Puzzle Engineering Methodology](https
 - [Build a Kakuro Solver and Generator in Python](https://motleyplay.com/posts/kakuro-solver-generator/): Write a fast Python Kakuro solver using 9-bit candidate masks and run-level filtering, then build a generator that repairs 2x2 swaps and grades human difficulty.
 - [Designing Kakuro Grids That Hide an Answer](https://motleyplay.com/posts/kakuro-hidden-answers/): Design escape room Kakuro puzzles that reveal a secret lock code or page number: pre-lock target cells, avoid the zero and duplicate traps, and pace the reveal.
 
+## Solving Logic Grid Mysteries
+
+- [How to Solve Logic Grid Puzzles: From Basic Elimination to Murder Mystery Deduction](https://motleyplay.com/posts/solve-logic-grid-puzzles/): Learn how to solve logic grid puzzles without guessing. Master staircase matrices, all six clue types, ladder bounds, and cross-grid syncing for murder mysteries.
+- [How Logic Grid Matrices Work: Sub-Grids, Rows, and Auto-Elimination](https://motleyplay.com/posts/logic-grid-matrix-rules/): Confused by the L-shaped staircase chart in logic puzzles? Learn how sub-grids connect categories, why one dot clears a row and column, and how to find singles.
+- [Cracking Ordered Clues: How to Solve "Earlier Than" and Exact-Gap Ladders](https://motleyplay.com/posts/logic-grid-ordered-clues/): Master time, floor, and sequence clues in logic grid puzzles. Learn endpoint elimination for 'earlier than' clues and sliding windows for exact-gap ladders.
+- [Mastering "Either/Or" and "One of These Two" Clues in Logic Grids](https://motleyplay.com/posts/logic-grid-either-pair-clues/): Crack 'either/or' and 'of A and B, one was X and the other was Y' clues in logic grid puzzles. Learn locked 2x2 boxes, cross-block X!=Y, and shared-name pairs.
+- [Transitive Cross-Referencing: Syncing Sub-Grids to Break Mid-Game Stalls](https://motleyplay.com/posts/logic-grid-cross-referencing/): Stuck halfway through a logic grid puzzle after reading every clue? Learn how to copy marks between sub-grids using positive and negative transitive logic.
+- [From the Zebra Puzzle to Murder Mystery Grids: How Deductive Cases Work](https://motleyplay.com/posts/murder-mystery-logic-grids/): Explore how Einstein's 1962 Zebra Puzzle evolved into modern murder mystery logic grids like Murdle. Compare table vs. staircase grids and play 4 free cases.
+
 ## Playable Puzzles
 
 Free murder-mystery puzzles to play in your browser: logic-grid cases from easy to hard, detective-fiction cryptograms, a connections board and a mansion escape.
